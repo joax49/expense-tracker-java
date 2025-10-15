@@ -1,13 +1,11 @@
 public class Product {
+    String productName;
+    int productPrice;
+    int productAmount;
 
-    String name;
-    int price;
-    int amount;
-
-    Product(String name, int price, int amount) {
-        this.name = name;
-        this.price = price;
-        this.amount = amount;
+    Product(String productName, int productPrice, int productAmount) {
+        this.productName = productName;
+        this.productPrice = productPrice;
+        this.productAmount = productAmount;
     }
-
 }
